@@ -1,0 +1,25 @@
+{
+  "name": "cli-conway",
+  "version": "0.0.1",
+  "description": "A CLI implementation of Conway's Game of Life",
+  "main": "index.js",
+  "bin": {
+    "cli-conway": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "keywords": [
+    "conway",
+    "game",
+    "life",
+    "cli",
+    "terminal"
+  ],
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
