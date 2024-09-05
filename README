@@ -1,0 +1,51 @@
+                     CLI-CONWAY
+             A Terminal Implementation of
+                  Conway's Game of Life
+
+-----------------------------------------------------
+
+WHAT IS IT?
+-----------
+CLI-Conway is a text-based version of the
+famous Game of Life, created by John Conway.
+Navigate, place shapes, and watch as the grid
+evolves through generations.
+
+-----------------------------------------------------
+
+HOW TO INSTALL:
+---------------
+1. Clone this repository:
+   git clone https://github.com/yourusername/cli-conway.git
+2. Navigate into the directory:
+   cd cli-conway
+3. Install dependencies:
+   npm install
+4. Run the game:
+   npm start
+
+OR install globally with npm:
+   npm install -g cli-conway
+
+-----------------------------------------------------
+
+COMMANDS:
+---------
+Use the arrow keys to move the cursor.
+Press:
+  SPACE   - Toggle cell state
+  ESC/Q   - Exit
+  1-9     - Adjust simulation speed
+  [g, b, p, h, l, v, o, t, u, s, x, c] - Place shapes
+
+-----------------------------------------------------
+
+TIPS:
+-----
+- Use `1` for the slowest speed (450ms) and `9` for the fastest (50ms).
+- Place multiple shapes in quick succession for interesting patterns!
+
+COMMON SHAPE COMBOS:
+- **Glider (g) + Blinker (b)**: Create moving patterns with gliders and blinking cells.
+- **Gosper Glider Gun**: Use `g` and `l` together to create a glider gun setup (requires precise placement).
+- **Pulsar (p)**: A great way to create oscillating patterns — try combining this with other still life shapes!
