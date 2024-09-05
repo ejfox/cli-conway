@@ -1,6 +1,6 @@
 {
   "name": "cli-conway",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CLI implementation of Conway's Game of Life",
   "main": "index.js",
   "bin": {
